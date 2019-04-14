@@ -1,7 +1,5 @@
 # edgeauto-web
 
-
-
 The portal allows end users to replay data collected from previous driving sessions. The data is displayed in a table, allowing users to plot up to 3 arbitration IDs by selecting an entry. Also featured is a map showing the path a vehicle took for the duration of the driving session.
 
 This folder contains all the files used for the web portal displayed on the front end.
