@@ -1,4 +1,5 @@
 # EdgeAuto-datastream
+#### By Mitchell Parker and Chad Brown
 
 ## Objective 
   The datastream handles the data collection from the carloop connected to the vehicle, all the way to the node. This will handle the direction of the output for the carloop to a specific node based on the carloop's GPS position. 
