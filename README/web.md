@@ -21,11 +21,11 @@ Responsible for setting proxy(from port 3000 to port 1776) and starting the node
 
 Contains the API call definitions(SQL statements) for use by the react application.
 
-To retrieve all available sessions:
+To retrieve all available sessions(`/getsessions`):
 
 `SELECT DISTINCT session_id FROM message`
 
-To retrieve all relevant data for a specific session:
+To retrieve all relevant data for a specific session(`/session/1/?`):
 
 `SELECT arb_id, message, cantime, latitude, longitude FROM message WHERE session_id=?`
 
@@ -61,23 +61,23 @@ The geographic map takes the argument `center={this.state.center}` and a polylin
 
 To run this app locally:
 
-First clone the repository to your machine:
+First clone the repository to your machine
 
 `git clone https://github.com/j-abu/edgeauto-web.git`
 
-Navigate to the project directory: 
+Navigate to the project directory
 
 `cd [path-to-app]/react-app`
 
-Install yarn with the node package manager: 
+Install yarn with the node package manager
 
 `npm i yarn -g`
 
-Install the required dependencies: 
+Install the required dependencies
 
 `yarn install`
 
-Run the application and development server: 
+Run the application and development server
 
 `yarn dev`
 
