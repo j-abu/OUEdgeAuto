@@ -25,3 +25,7 @@ Create a new app and add Carloop library to it.
 Use Carloop library objects (carloop) and functions (.gps() and .can()) to retrieve CAN and GPS information. 
 (https://docs.particle.io/reference/device-os/firmware/photon/)
 Print information to serial port or publish it to the particle console to confirm reception.	
+
+## License
+
+There is none. If for some unlikely reason you want to use anything here, you can do so without my permission. I grant thee the privilege.
