@@ -1,4 +1,5 @@
-# Milestone 1
+# EdgeAuto-Carloop
+#### By Chad Brown
 
 ## Objective
 A full functional component that supports CAN message and GPS data collection from a Car via Carloop and its associated GPS components
